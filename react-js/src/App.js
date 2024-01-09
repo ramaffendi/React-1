@@ -1,9 +1,13 @@
-import Ckomponen from "./Materi/Ckomponen";
+import MainFull from "./MateriComp/MainFull";
+import NavBar from "./MateriComp/NavBar";
+
+
 
 function App() {
   return (
     <div className="App">
-    <Ckomponen />
+      <MainFull />
+      <NavBar />
     </div>
   );
 }
